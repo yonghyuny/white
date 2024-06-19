@@ -12,7 +12,7 @@ interface LogoLinkProps {
 
 const LogoLink: React.FC<LogoLinkProps> = ({href, src, alt}) => {
     return (
-        <Link sx={{backgroundColor: COLORS.PRIMARY, padding: SIZES.SPACING.EXTRA_EXTRA_SMALL, borderBottom:`1px solid ${COLORS.BORDER.PRIMARY}`}} href={href} underline="none">
+        <Link sx={{backgroundColor: COLORS.PRIMARY, pt: SIZES.SPACING.EXTRA_SMALL, pl:SIZES.SPACING.EXTRA_SMALL}} href={href} underline="none">
             <Box sx={{width: "100%", height: "100%", objectFit: "contain"}} component="img" src={src} alt={alt}/>
         </Link>
     );

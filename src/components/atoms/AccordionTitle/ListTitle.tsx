@@ -16,7 +16,7 @@ const ListTitle = ({ListTitle}:ListTitleProps)=>{
         }}
         >
             <ListItemText>
-                <Typography sx={{fontSize: SIZES.FONT_SIZE.EXTRA_SMALL }}>
+                <Typography sx={{fontSize: SIZES.FONT_SIZE.EXTRA_SMALL}}>
                     {ListTitle}
                 </Typography>
             </ListItemText>

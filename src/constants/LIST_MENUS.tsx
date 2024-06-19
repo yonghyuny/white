@@ -1,7 +1,7 @@
 import { ListMenuItemProps } from "@/components/atoms/AccordionMenu/ListMenu";
 import ListTitle from "@/components/atoms/AccordionTitle/ListTitle";
 import { ListMenuPanelProps } from "@/components/molecules/AccordionMenuPanel/ListMenuPanel";
-import { Event } from "@mui/icons-material";
+import { Event, Home } from "@mui/icons-material";
 import LocalShipping from "@mui/icons-material/LocalShipping";
 import People from "@mui/icons-material/People";
 import TrendingUp from "@mui/icons-material/TrendingUp";
@@ -10,7 +10,7 @@ export const LIST_MENUS: ListMenuPanelProps[] = [
     {
         ListMenuTitle: 'NAVIGATION',
         ListMenuItemList: [
-            { name: 'Dashboard', url: 'courier/list', icon: <LocalShipping/> },
+            { name: 'Dashboard', url: 'courier/list', icon: <Home/> },
         ],
     },
     {

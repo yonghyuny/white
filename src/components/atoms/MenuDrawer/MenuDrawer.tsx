@@ -15,25 +15,25 @@ const MenuDrawer: React.FC<DrawerProps> = (props) => {
         <Drawer
             sx={{
                 width: 300,
-                flexShrink: 0,
+                // flexShrink: 0,
                 '& .MuiDrawer-paper': {
                     width: 300,
                     boxSizing: 'border-box',
                     backgroundColor: COLORS.PRIMARY,
                     color: COLORS.TEXT.PRIMARY,
-                    '&::-webkit-scrollbar': {
-                        width: SIZES.SCROLL_WIDTH.DEFAULT,
-                    },
-                    '&::-webkit-scrollbar-track': {
-                        background: COLORS.WHITE,
-                    },
-                    '&::-webkit-scrollbar-thumb': {
-                        background: COLORS.THIRD,
-                        borderRadius: SIZES.BORDER_RADIUS.SMALL,
-                    },
-                    '&::-webkit-scrollbar-thumb:hover': {
-                        background: '#555',
-                    },
+                    // '&::-webkit-scrollbar': {
+                    //     width: SIZES.SCROLL_WIDTH.DEFAULT,
+                    // },
+                    // '&::-webkit-scrollbar-track': {
+                    //     background: COLORS.WHITE,
+                    // },
+                    // '&::-webkit-scrollbar-thumb': {
+                    //     background: COLORS.THIRD,
+                    //     borderRadius: SIZES.BORDER_RADIUS.SMALL,
+                    // },
+                    // '&::-webkit-scrollbar-thumb:hover': {
+                    //     background: 'white',
+                    // },
                 },
             }}
             variant="permanent"

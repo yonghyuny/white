@@ -22,8 +22,8 @@ export type ListMenuPanelProps = {
         </ListSubheader>
         {ListMenuItemList.map((item, index) => (
           <ListItem key={index} disablePadding>
-            <ListItemButton sx={{ pl: 4 }} onClick={() => handleNavigation(item.url)}>
-              <ListItemIcon sx={{color: "red"}}>
+            <ListItemButton sx={{ pl: 3 }} onClick={() => handleNavigation(item.url)}>
+              <ListItemIcon sx={{color: "white"}}>
                 {item.icon}
               </ListItemIcon>
               <ListItemText primary={item.name} />
