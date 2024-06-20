@@ -24,14 +24,17 @@ const ListMenu = ({ ListMenuItems }: ListMenuItemProps) => {
           key={value.name}
           onClick={() => moveToUrl(value.url)}
           sx={{
-            borderColor: "divider",
+            backgroundColor: "#3f4d67",
+            borderColor: "#3f4d67",
             transition: "all 0.3s",
           }}
         >
           <ListItemButton>
             <ListItemText
-              primaryTypographyProps={{ fontSize: SIZES.FONT_SIZE.SMALL }}
               primary={value.name}
+              sx={{
+                fontSize: SIZES.FONT_SIZE.EXTRA_EXTRA_SMALL,
+              }}
             />
           </ListItemButton>
         </ListItem>
